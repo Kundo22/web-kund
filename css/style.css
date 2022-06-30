@@ -88,7 +88,9 @@ nav a:hover{
 
      
 body{
-    background-image: url(/img/white.jpg);
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/white.jpg);
     background-attachment: fixed;
 
 }
@@ -208,16 +210,59 @@ body{
 
 
 /* FOOTER */
+.footer{
+    background-color: #272727
 
-footer{
+}
+.inner-footeer{
+    margin: 0;
+    padding: 0;
+    background-color: #272727
+}
+.social-links{
     display: flex;
-    margin: 80px;
-    justify-content:space-between
 }
 
-.pagos{
-    
+.social-links ul{
+    padding: 0px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
 }
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 20px 30px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+}
+
+.social-items a:hover{
+    color: #45928d;
+}
+
+.outer-footer{
+    padding: 20px;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    background-color: #272727;
+    margin:0px;
+}
+
+
+
+
+
+
+
+
+
 
 /* JUEGOS */
 
