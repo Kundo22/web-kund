@@ -33,7 +33,10 @@ h2{
 /* NAV */
 
 	#botonera ul li a{
-		color: black;
+		color: white;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+
 	}
 
 		#botonera ul li a:hover{
@@ -92,6 +95,9 @@ body{
     padding: 0;
     background-image: url(../img/white.jpg);
     background-attachment: fixed;
+    position: relative;
+    padding-bottom: 4em;
+    min-height: 100vh;
 
 }
 
@@ -105,9 +111,14 @@ body{
     grid-template-rows: repeat(150px);
     justify-items: center;
     margin: 20px;
+    padding: 20px;
 }
 
 /* colores */
+
+.bg-white{
+    background-color:white
+}
 
 .bg-black{
     background-color: #000;
@@ -211,8 +222,10 @@ body{
 
 /* FOOTER */
 .footer{
-    background-color: #272727
-
+    background-color: #272727;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .inner-footeer{
     margin: 0;
